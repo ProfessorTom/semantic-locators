@@ -4,7 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import 'regenerator-runtime/runtime';
+
 import {html, render} from 'lit';
+
 import {outerNodesOnly} from '../../src/lib/outer';
 
 describe('outerNodesOnly', () => {

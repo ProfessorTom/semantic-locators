@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import 'regenerator-runtime/runtime';
+
 import {CHILDREN_PRESENTATIONAL, isAriaOnlyRole, ROLE_MAP} from '../../src/lib/role_map';
 
 describe('CHILDREN_PRESENTATIONAL', () => {

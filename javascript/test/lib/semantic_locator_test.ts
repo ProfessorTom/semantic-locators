@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import 'regenerator-runtime/runtime';
+
 import {SemanticLocator, SemanticNode} from '../../src/lib/semantic_locator';
 
 // TODO(alexlloyd) test that `parse(locator.toString()) === locator`

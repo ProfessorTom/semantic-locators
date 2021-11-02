@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import 'regenerator-runtime/runtime';
+
 import {parse} from '../../src/lib/parse_locator';
 import {SemanticLocator, SemanticNode} from '../../src/lib/semantic_locator';
 

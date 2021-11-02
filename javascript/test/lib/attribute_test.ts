@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import 'regenerator-runtime/runtime';
+
 import {html, render} from 'lit';
 
 import {computeARIAAttributeValue} from '../../src/lib/attribute';
